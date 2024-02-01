@@ -16,6 +16,11 @@
 		F49AB9492B6B690400C36F4A /* FINALIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9482B6B690400C36F4A /* FINALIATests.swift */; };
 		F49AB9532B6B690400C36F4A /* FINALIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9522B6B690400C36F4A /* FINALIAUITests.swift */; };
 		F49AB9552B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9542B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift */; };
+		F49AB9622B6B6A2C00C36F4A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9612B6B6A2C00C36F4A /* WelcomeViewController.swift */; };
+		F49AB9642B6B6A3C00C36F4A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9632B6B6A3C00C36F4A /* LogInViewController.swift */; };
+		F49AB9662B6B6A4C00C36F4A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9652B6B6A4C00C36F4A /* SignUpViewController.swift */; };
+		F49AB9682B6B6A6100C36F4A /* RegisterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9672B6B6A6100C36F4A /* RegisterDetailsViewController.swift */; };
+		F49AB96A2B6B6A7600C36F4A /* CustomerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9692B6B6A7600C36F4A /* CustomerHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		F49AB94E2B6B690400C36F4A /* FINALIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FINALIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49AB9522B6B690400C36F4A /* FINALIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALIAUITests.swift; sourceTree = "<group>"; };
 		F49AB9542B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALIAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F49AB9612B6B6A2C00C36F4A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F49AB9632B6B6A3C00C36F4A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F49AB9652B6B6A4C00C36F4A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F49AB9672B6B6A6100C36F4A /* RegisterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDetailsViewController.swift; sourceTree = "<group>"; };
+		F49AB9692B6B6A7600C36F4A /* CustomerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				F49AB9332B6B690000C36F4A /* SceneDelegate.swift */,
 				F49AB9352B6B690000C36F4A /* ViewController.swift */,
 				F49AB9372B6B690000C36F4A /* Main.storyboard */,
+				F49AB9692B6B6A7600C36F4A /* CustomerHomeViewController.swift */,
+				F49AB9672B6B6A6100C36F4A /* RegisterDetailsViewController.swift */,
+				F49AB9652B6B6A4C00C36F4A /* SignUpViewController.swift */,
+				F49AB9632B6B6A3C00C36F4A /* LogInViewController.swift */,
+				F49AB9612B6B6A2C00C36F4A /* WelcomeViewController.swift */,
 				F49AB93A2B6B690400C36F4A /* Assets.xcassets */,
 				F49AB93C2B6B690400C36F4A /* LaunchScreen.storyboard */,
 				F49AB93F2B6B690400C36F4A /* Info.plist */,
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49AB9682B6B6A6100C36F4A /* RegisterDetailsViewController.swift in Sources */,
+				F49AB9662B6B6A4C00C36F4A /* SignUpViewController.swift in Sources */,
+				F49AB96A2B6B6A7600C36F4A /* CustomerHomeViewController.swift in Sources */,
 				F49AB9362B6B690000C36F4A /* ViewController.swift in Sources */,
+				F49AB9622B6B6A2C00C36F4A /* WelcomeViewController.swift in Sources */,
 				F49AB9322B6B690000C36F4A /* AppDelegate.swift in Sources */,
+				F49AB9642B6B6A3C00C36F4A /* LogInViewController.swift in Sources */,
 				F49AB9342B6B690000C36F4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
