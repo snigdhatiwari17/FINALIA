@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49AB9322B6B690000C36F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9312B6B690000C36F4A /* AppDelegate.swift */; };
+		F49AB9342B6B690000C36F4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9332B6B690000C36F4A /* SceneDelegate.swift */; };
+		F49AB9362B6B690000C36F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9352B6B690000C36F4A /* ViewController.swift */; };
+		F49AB9392B6B690000C36F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49AB9372B6B690000C36F4A /* Main.storyboard */; };
+		F49AB93B2B6B690400C36F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49AB93A2B6B690400C36F4A /* Assets.xcassets */; };
+		F49AB93E2B6B690400C36F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49AB93C2B6B690400C36F4A /* LaunchScreen.storyboard */; };
+		F49AB9492B6B690400C36F4A /* FINALIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9482B6B690400C36F4A /* FINALIATests.swift */; };
+		F49AB9532B6B690400C36F4A /* FINALIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9522B6B690400C36F4A /* FINALIAUITests.swift */; };
+		F49AB9552B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AB9542B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49AB9452B6B690400C36F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49AB9262B6B690000C36F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49AB92D2B6B690000C36F4A;
+			remoteInfo = FINALIA;
+		};
+		F49AB94F2B6B690400C36F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49AB9262B6B690000C36F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49AB92D2B6B690000C36F4A;
+			remoteInfo = FINALIA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F49AB92E2B6B690000C36F4A /* FINALIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FINALIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49AB9312B6B690000C36F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49AB9332B6B690000C36F4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F49AB9352B6B690000C36F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F49AB9382B6B690000C36F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49AB93A2B6B690400C36F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49AB93D2B6B690400C36F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49AB93F2B6B690400C36F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49AB9442B6B690400C36F4A /* FINALIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FINALIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49AB9482B6B690400C36F4A /* FINALIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALIATests.swift; sourceTree = "<group>"; };
+		F49AB94E2B6B690400C36F4A /* FINALIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FINALIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49AB9522B6B690400C36F4A /* FINALIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALIAUITests.swift; sourceTree = "<group>"; };
+		F49AB9542B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALIAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49AB92B2B6B690000C36F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB9412B6B690400C36F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB94B2B6B690400C36F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49AB9252B6B690000C36F4A = {
+			isa = PBXGroup;
+			children = (
+				F49AB9302B6B690000C36F4A /* FINALIA */,
+				F49AB9472B6B690400C36F4A /* FINALIATests */,
+				F49AB9512B6B690400C36F4A /* FINALIAUITests */,
+				F49AB92F2B6B690000C36F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49AB92F2B6B690000C36F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49AB92E2B6B690000C36F4A /* FINALIA.app */,
+				F49AB9442B6B690400C36F4A /* FINALIATests.xctest */,
+				F49AB94E2B6B690400C36F4A /* FINALIAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49AB9302B6B690000C36F4A /* FINALIA */ = {
+			isa = PBXGroup;
+			children = (
+				F49AB9312B6B690000C36F4A /* AppDelegate.swift */,
+				F49AB9332B6B690000C36F4A /* SceneDelegate.swift */,
+				F49AB9352B6B690000C36F4A /* ViewController.swift */,
+				F49AB9372B6B690000C36F4A /* Main.storyboard */,
+				F49AB93A2B6B690400C36F4A /* Assets.xcassets */,
+				F49AB93C2B6B690400C36F4A /* LaunchScreen.storyboard */,
+				F49AB93F2B6B690400C36F4A /* Info.plist */,
+			);
+			path = FINALIA;
+			sourceTree = "<group>";
+		};
+		F49AB9472B6B690400C36F4A /* FINALIATests */ = {
+			isa = PBXGroup;
+			children = (
+				F49AB9482B6B690400C36F4A /* FINALIATests.swift */,
+			);
+			path = FINALIATests;
+			sourceTree = "<group>";
+		};
+		F49AB9512B6B690400C36F4A /* FINALIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F49AB9522B6B690400C36F4A /* FINALIAUITests.swift */,
+				F49AB9542B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift */,
+			);
+			path = FINALIAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49AB92D2B6B690000C36F4A /* FINALIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49AB9582B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIA" */;
+			buildPhases = (
+				F49AB92A2B6B690000C36F4A /* Sources */,
+				F49AB92B2B6B690000C36F4A /* Frameworks */,
+				F49AB92C2B6B690000C36F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FINALIA;
+			productName = FINALIA;
+			productReference = F49AB92E2B6B690000C36F4A /* FINALIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49AB9432B6B690400C36F4A /* FINALIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49AB95B2B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIATests" */;
+			buildPhases = (
+				F49AB9402B6B690400C36F4A /* Sources */,
+				F49AB9412B6B690400C36F4A /* Frameworks */,
+				F49AB9422B6B690400C36F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49AB9462B6B690400C36F4A /* PBXTargetDependency */,
+			);
+			name = FINALIATests;
+			productName = FINALIATests;
+			productReference = F49AB9442B6B690400C36F4A /* FINALIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F49AB94D2B6B690400C36F4A /* FINALIAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49AB95E2B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIAUITests" */;
+			buildPhases = (
+				F49AB94A2B6B690400C36F4A /* Sources */,
+				F49AB94B2B6B690400C36F4A /* Frameworks */,
+				F49AB94C2B6B690400C36F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49AB9502B6B690400C36F4A /* PBXTargetDependency */,
+			);
+			name = FINALIAUITests;
+			productName = FINALIAUITests;
+			productReference = F49AB94E2B6B690400C36F4A /* FINALIAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49AB9262B6B690000C36F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F49AB92D2B6B690000C36F4A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F49AB9432B6B690400C36F4A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F49AB92D2B6B690000C36F4A;
+					};
+					F49AB94D2B6B690400C36F4A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F49AB92D2B6B690000C36F4A;
+					};
+				};
+			};
+			buildConfigurationList = F49AB9292B6B690000C36F4A /* Build configuration list for PBXProject "FINALIA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49AB9252B6B690000C36F4A;
+			productRefGroup = F49AB92F2B6B690000C36F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49AB92D2B6B690000C36F4A /* FINALIA */,
+				F49AB9432B6B690400C36F4A /* FINALIATests */,
+				F49AB94D2B6B690400C36F4A /* FINALIAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49AB92C2B6B690000C36F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49AB93E2B6B690400C36F4A /* LaunchScreen.storyboard in Resources */,
+				F49AB93B2B6B690400C36F4A /* Assets.xcassets in Resources */,
+				F49AB9392B6B690000C36F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB9422B6B690400C36F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB94C2B6B690400C36F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49AB92A2B6B690000C36F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49AB9362B6B690000C36F4A /* ViewController.swift in Sources */,
+				F49AB9322B6B690000C36F4A /* AppDelegate.swift in Sources */,
+				F49AB9342B6B690000C36F4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB9402B6B690400C36F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49AB9492B6B690400C36F4A /* FINALIATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49AB94A2B6B690400C36F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49AB9532B6B690400C36F4A /* FINALIAUITests.swift in Sources */,
+				F49AB9552B6B690400C36F4A /* FINALIAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49AB9462B6B690400C36F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49AB92D2B6B690000C36F4A /* FINALIA */;
+			targetProxy = F49AB9452B6B690400C36F4A /* PBXContainerItemProxy */;
+		};
+		F49AB9502B6B690400C36F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49AB92D2B6B690000C36F4A /* FINALIA */;
+			targetProxy = F49AB94F2B6B690400C36F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F49AB9372B6B690000C36F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49AB9382B6B690000C36F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49AB93C2B6B690400C36F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49AB93D2B6B690400C36F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49AB9562B6B690400C36F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49AB9572B6B690400C36F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49AB9592B6B690400C36F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FINALIA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49AB95A2B6B690400C36F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FINALIA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F49AB95C2B6B690400C36F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINALIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FINALIA";
+			};
+			name = Debug;
+		};
+		F49AB95D2B6B690400C36F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINALIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FINALIA";
+			};
+			name = Release;
+		};
+		F49AB95F2B6B690400C36F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FINALIA;
+			};
+			name = Debug;
+		};
+		F49AB9602B6B690400C36F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H46F5Z8KW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = snigdha.FINALIAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FINALIA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49AB9292B6B690000C36F4A /* Build configuration list for PBXProject "FINALIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49AB9562B6B690400C36F4A /* Debug */,
+				F49AB9572B6B690400C36F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49AB9582B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49AB9592B6B690400C36F4A /* Debug */,
+				F49AB95A2B6B690400C36F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49AB95B2B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49AB95C2B6B690400C36F4A /* Debug */,
+				F49AB95D2B6B690400C36F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49AB95E2B6B690400C36F4A /* Build configuration list for PBXNativeTarget "FINALIAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49AB95F2B6B690400C36F4A /* Debug */,
+				F49AB9602B6B690400C36F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49AB9262B6B690000C36F4A /* Project object */;
+}
